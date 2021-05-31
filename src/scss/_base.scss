@@ -1,0 +1,65 @@
+@import '~bootstrap/scss/bootstrap.scss';
+@import '~bootstrap-vue/src/index.scss';
+
+html, body {
+  font-family: Muli, Helvetica, sans-serif;
+    -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: $gris-oscuro;
+  font-size: 16px;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+  -webkit-box-shadow: 0 0 0px 1000px white inset;
+  box-shadow: 0 0 0px 1000px white inset;
+}
+
+.container {
+  margin:0px auto;
+}
+
+.p {
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+h1 {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.container-fluid {
+  padding: 0
+}
+
+#app {
+  .el-button {
+    font-weight: 700;
+    font-size: 1rem;
+  }
+}
+body {
+  .toasted-container {
+    .toasted {
+      font-size: 1rem;
+      padding: 1rem 2rem;
+      min-width: 200px;
+      display: flex;
+      justify-content: flex-start;
+
+      &.custom-success {
+        svg {
+          color: green;
+        }
+      }
+
+      svg {
+        margin-right: .5rem;
+      }
+    }
+  }
+}
+

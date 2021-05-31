@@ -1,0 +1,13 @@
+{
+  "appId": "com.sonrisafeliz.app",
+  "appName": "sonrisafeliz",
+  "bundledWebRuntime": false,
+  "npmClient": "npm",
+  "webDir": "dist",
+  "plugins": {
+    "SplashScreen": {
+      "launchShowDuration": 0
+    }
+  },
+  "cordova": {}
+}

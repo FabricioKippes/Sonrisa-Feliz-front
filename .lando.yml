@@ -1,0 +1,21 @@
+name: sonrisa-feliz
+
+services:
+  appserver:
+    type: node:12
+    build:
+      - npm i
+    command:
+      - "npm i"
+      - "npm run serve"
+    port: 80
+
+tooling:
+  npm:
+    service: appserver
+    description: lets you run npm inside the project
+    cmd: npm
+  npx:
+    service: appserver
+    description: lets you run npm inside the project
+    cmd: npx

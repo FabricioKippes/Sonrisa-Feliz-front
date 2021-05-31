@@ -1,0 +1,4 @@
+git checkout -b dev-sandro
+git add .
+git commit -m "descripcion de los cambios"
+git push -u origin dev-sandro
